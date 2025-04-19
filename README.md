@@ -4,7 +4,7 @@
 ## Mô tả bài thử thách
 
 Trong bài thử thách CTF này, bạn cần khai thác một **lỗi so sánh MD5** trong PHP. 
-![atl](images/AmazingMD5.png)
+![atl](Images/AmazingMD5.png)
 Dưới đây là mã nguồn PHP của bài thử thách:
 
 ```php
