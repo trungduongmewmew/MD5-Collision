@@ -28,7 +28,7 @@ if (isset($_POST['a']) and isset($_POST['b'])) {
 ### Phân tích mã PHP
 
 - **Mục tiêu của bài thử thách**: 
-  - Bạn cần cung cấp hai chuỗi **khác nhau về giá trị** nhưng **có cùng giá trị MD5**. 
+  - Chúng ta cần cung cấp hai chuỗi **khác nhau về giá trị** nhưng **có cùng giá trị MD5**. 
   - Khi điều kiện này thỏa mãn, server sẽ trả về **flag**.
 
 - **Điều kiện kiểm tra**:
@@ -37,12 +37,12 @@ if (isset($_POST['a']) and isset($_POST['b'])) {
 
 ## Phân tích vấn đề
 
-Bài thử thách này yêu cầu bạn khai thác tính năng **MD5 collision**, nghĩa là tìm hai chuỗi khác nhau nhưng khi tính giá trị MD5 của chúng thì kết quả lại giống nhau. Điều này có thể thực hiện được bằng cách sử dụng các kỹ thuật tấn công **hash collision** trong MD5.
+Bài thử thách này yêu cầu  khai thác tính năng **MD5 collision**, nghĩa là tìm hai chuỗi khác nhau nhưng khi tính giá trị MD5 của chúng thì kết quả lại giống nhau. Điều này có thể thực hiện được bằng cách sử dụng các kỹ thuật tấn công **hash collision** trong MD5.
 
 ## Giải pháp
 
 ### Bước 1: Tính toán MD5 của hai chuỗi
-Trước tiên, ta cần đảm bảo rằng hai chuỗi có giá trị MD5 giống nhau. Dưới đây là hai chuỗi đã được cung cấp trong bài thử thách:
+Trước tiên, ta cần đảm bảo rằng hai chuỗi có giá trị MD5 giống nhau. Sau một hồi tra google về từ khoá **MD5 collision** cuối cùng cũng tìm được cặp số thoả điều kiện hehe :
 
 ```python
 string1 = "TEXTCOLLBYfGiJUETHQ4hAcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak"
