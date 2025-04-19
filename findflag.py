@@ -2,8 +2,6 @@ import hashlib
 import requests
 string1 = "TEXTCOLLBYfGiJUETHQ4hAcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak"
 string2 = "TEXTCOLLBYfGiJUETHQ4hEcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak"
-def calculate_md5(s):
-    return hashlib.md5(s.encode()).hexdigest()
 url = 'http://172.104.49.143:1608/'  
 data = {
     'a': string1,
