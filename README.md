@@ -115,4 +115,3 @@ Flag tìm thấy: FLAG{md5_collision_is_fun}
 
 ---
 
-Đây là bài write-up chi tiết về bài CTF "MD5 Collision". Bạn có thể chia sẻ nó lên GitHub để giúp người khác hiểu rõ hơn về cách giải quyết bài thử thách này.
