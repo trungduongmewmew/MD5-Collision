@@ -60,7 +60,6 @@ Sau khi xác nhận rằng MD5 của hai chuỗi giống nhau, chúng ta sẽ g�
 Dưới đây là mã Python giúp bạn gửi yêu cầu POST và nhận kết quả:
 
 ```python
-import hashlib
 import requests
 string1 = "TEXTCOLLBYfGiJUETHQ4hAcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak"
 string2 = "TEXTCOLLBYfGiJUETHQ4hEcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak"
