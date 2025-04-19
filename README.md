@@ -3,8 +3,10 @@
 
 ## Mô tả bài thử thách
 
-Trong bài thử thách CTF này, bạn cần khai thác một **lỗi so sánh MD5** trong PHP. 
-![atl](Images/AmazingMD5.png)
+Trong bài thử thách CTF này, chúng ta cần khai thác một **lỗi so sánh MD5** trong PHP. 
+![atl](Images/AmazingMD5.png)  
+Truy cập url của đề bài, chúng ta sẽ thấy mã nguồn PHP của đề bài  
+![atl](Images/PHP.png)  
 Dưới đây là mã nguồn PHP của bài thử thách:
 
 ```php
