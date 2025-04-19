@@ -49,7 +49,8 @@ string1 = "TEXTCOLLBYfGiJUETHQ4hAcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaK
 string2 = "TEXTCOLLBYfGiJUETHQ4hEcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak"
 ```
 
-Chúng ta sẽ tính giá trị MD5 của cả hai chuỗi này và kiểm tra nếu chúng giống nhau.
+Chúng ta sẽ tính giá trị MD5 của cả hai chuỗi này và kiểm tra nếu chúng giống nhau.  
+![atl](Images/checkmd5.png)
 
 ### Bước 2: Gửi yêu cầu POST
 
