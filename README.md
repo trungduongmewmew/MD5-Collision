@@ -1,7 +1,8 @@
 
 # CTF Write-Up: MD5 Collision Challenge
 
-## Mô tả bài thử thách
+## Mô tả bài thử thách  
+Bài thử thách tại [viblo](https://ctf.viblo.asia/) với tên Challenge là Amazing MD5
 
 Trong bài thử thách CTF này, chúng ta cần khai thác một **lỗi so sánh MD5** trong PHP. 
 ![atl](Images/AmazingMD5.png)  
