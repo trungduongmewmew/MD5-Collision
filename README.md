@@ -61,40 +61,18 @@ Dưới đây là mã Python giúp bạn gửi yêu cầu POST và nhận kết 
 ```python
 import hashlib
 import requests
-
-# Các chuỗi đã cho
 string1 = "TEXTCOLLBYfGiJUETHQ4hAcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak"
 string2 = "TEXTCOLLBYfGiJUETHQ4hEcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak"
-
-# Hàm tính giá trị MD5 của chuỗi
 def calculate_md5(s):
     return hashlib.md5(s.encode()).hexdigest()
-
-# Tính MD5 của 2 chuỗi
-md5_string1 = calculate_md5(string1)
-md5_string2 = calculate_md5(string2)
-
-# In ra kết quả MD5
-print("MD5 của string1:", md5_string1)
-print("MD5 của string2:", md5_string2)
-
-# URL của bài CTF
-url = 'http://example.com/challenge.php'  # Thay thế bằng URL thực tế
-
-# Tạo dữ liệu để gửi POST
+url = 'http://172.104.49.143:1608/'  
 data = {
     'a': string1,
     'b': string2
 }
-
-# Gửi yêu cầu POST
 response = requests.post(url, data=data)
-
-# Kiểm tra phản hồi từ máy chủ
 if "flag" in response.text:
     print("Flag tìm thấy:", response.text)
-else:
-    print("Không tìm thấy flag. Phản hồi từ máy chủ:", response.text)
 ```
 
 ### Giải thích mã Python
