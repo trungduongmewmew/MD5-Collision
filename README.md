@@ -77,20 +77,17 @@ if "flag" in response.text:
 
 ### Giải thích mã Python
 
-1. **Tính MD5**: Đầu tiên, chúng ta sử dụng hàm `hashlib.md5()` để tính giá trị MD5 của hai chuỗi đã cho.
-2. **Gửi POST**: Chúng ta sử dụng thư viện `requests` để gửi yêu cầu POST tới URL của bài thử thách với các tham số `a` và `b`.
-3. **Kiểm tra flag**: Nếu phản hồi từ server chứa từ khóa "flag", nghĩa là bạn đã tìm được flag và sẽ được in ra.
+1. **Gửi POST**: Chúng ta sử dụng thư viện `requests` để gửi yêu cầu POST tới URL của bài thử thách với các tham số `a` và `b`.
+2. **Kiểm tra flag**: Nếu phản hồi từ server chứa từ khóa "flag", nghĩa là bạn đã tìm được flag và sẽ được in ra.
 
 ### Kết quả
 
-Sau khi chạy mã Python, nếu tất cả các điều kiện đều thỏa mãn, bạn sẽ nhận được flag từ server. Ví dụ, kết quả có thể như sau:
+Sau khi chạy mã Python, nếu tất cả các điều kiện đều thỏa mãn, chúng ta sẽ nhận được flag từ server. Kết quả như sau:
 
 ```
-MD5 của string1: 0e462097431906509019562988736854
-MD5 của string2: 0e462097431906509019562988736854
-Flag tìm thấy: FLAG{md5_collision_is_fun}
+Flag tìm thấy: Flag{Amazing_md5_right!!!?}
 ```
-
+![atl](Images/Findflag.png)
 ### Tổng kết
 
 - **MD5 Collision** là một kỹ thuật tấn công khai thác sự va chạm trong giá trị hash MD5. Mặc dù MD5 không còn được coi là an toàn, nhưng nó vẫn có thể được khai thác trong các thử thách CTF như thế này.
